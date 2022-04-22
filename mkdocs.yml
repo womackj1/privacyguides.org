@@ -184,7 +184,6 @@ nav:
       - 'vpn.md'
     - 'Software':
       - 'calendar-contacts.md'
-      - 'cryptocurrency.md'
       - 'notebooks.md'
       - 'email-clients.md'
       - 'encryption.md'
@@ -192,6 +191,7 @@ nav:
       - 'metadata-removal-tools.md'
       - 'multi-factor-authentication.md'
       - 'passwords.md'
+      - 'payments.md'
       - 'productivity.md'
       - 'real-time-communication.md'
       - 'news-aggregators.md'
