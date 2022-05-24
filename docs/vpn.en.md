@@ -195,11 +195,58 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Mobile Clients"
 
-    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The mobile client on Android is also available in [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The mobile client on Android is also available on [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
 
 ??? info "Additional Functionality"
 
     Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+
+### Windscribe
+
+!!! recommendation
+
+    ![Windscribe logo](assets/img/vpn/windscribe.svg#only-light){ align=right }
+    ![Windscribe logo](assets/img/vpn/windscribe-dark.svg#only-dark){ align=right }
+
+    **Windscribe** is a VPN provider, which has been around since 2016 and is based in Canada.
+
+    **Free** - **Yearly Plan USD $48.96/year**
+
+    [:octicons-home-16: Homepage](https://windscribe.com){ .md-button .md-button--primary }
+
+??? check "69 Countries"
+
+    Windscribe has [servers in 69 countries](https://windscribe.com/features/large-network), as of 2022/06/01. Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+
+    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+??? note "Independently Audited"
+
+
+
+??? check "Open Source Clients"
+
+    As of May 2022 [Windscribe applications are now open source](https://github.com/Windscribe).
+
+??? check "Accepts Monero"
+
+    In addition to accepting credit/debit cards and PayPal, Windscribe accepts Monero, Bitcoin, and a variety of other cryptocurrencies as payment.
+
+??? check "WireGuard Support"
+
+    Windscribe [supports Wireguard](https://blog.windscribe.com/introducing-wireguard-76a1670700a6/) and it is supported by their [config generator](https://windscribe.com/features/config-generators). [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/), and aims to be simpler and more performant.
+
+??? check "Remote Port Forwarding"
+
+    Remote ephemeral [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a [Pro plan](https://windscribe.com/features/port-forwarding). For a permanent port forward, you need to purchase a [static IP](https://windscribe.com/staticips).
+
+??? check "Mobile Clients"
+
+    In addition to providing standard OpenVPN configuration files, Windscribe has mobile clients for [App Store](https://apps.apple.com/app/id1129435228) and [Google Play](https://play.google.com/store/apps/details?id=com.windscribe.vpn) allowing for easy connections to their servers.
+
+??? info "Additional Functionality"
+
+    Windscribe offers [R.O.B.E.R.T.](https://windscribe.com/features/robert), a customizable server-side domain and IP blocking tool. They also offer static IP addresses, team accounts, and support for two-factor authentication.
 
 ## Our Criteria
 
@@ -218,7 +265,7 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - Support for strong protocols such as WireGuard & OpenVPN.
 - Killswitch built in to clients.
 - Multihop support. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing. We like to see these applications [available in F-Droid](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing. We like to see these applications [available on F-Droid](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
 
 **Best Case:**
 
