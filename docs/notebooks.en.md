@@ -9,6 +9,10 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ## Cloud-based
 
+### Obsidian
+
+**Obsidian** is both a Markdown editor and a knowledge base app. [Obsidian Sync](https://help.obsidian.md/Obsidian+Sync/Security+and+privacy#:~:text=End%2Dto%2Dend%20encryption%3A,it's%20sent%20to%20Obsidian's%20servers) offers E2EE.
+
 ### Joplin
 
 !!! recommendation
